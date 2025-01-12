@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata and external stylesheets linked -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Explore MEJIWOO, the ultimate destination for trendy Korean fashion. Discover stylish apparel, chic accessories, and versatile outfits perfect for every occasion. Shop now for timeless elegance and modern charm!">
+  <meta name="keywords"
+    content="Korean fashion, trendy clothing, MEJIWOO, Korean style, online shopping, stylish outfits, chic accessories, Korean apparel, women’s fashion, casual wear, elegant clothing, modern Korean trends, fashionable accessories, Korean e-commerce, K-fashion store, latest fashion trends, Korean style outfits, MEJIWOO clothing, Korean wardrobe essentials">
+  <title>MEJIWOO Fashion</title>
+
+  <!-- External CSS styles -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-[#eceef1] text-black ">
+  <!-- Header Section (Navigation bar with search and shopping features) -->
+  <header class="flex items-center justify-between py-10 px-10  bg-[#26364d] sticky top-0 z-10 shadow-md">
+
+    <!-- Navigation links with anchors to other sections -->
+    <nav id="nav-menu"
+      class="hidden flex-col absolute top-full left-0 bg-[#C1CFCD] shadow-md md:static md:flex md:flex-row space-x-4 lg:space-x-8 md:shadow-none md:bg-transparent ">
+      <a class="block py-4 px-6 hover:underline font-semibold md:inline" href="#home">Home</a>
+      <a class="block py-4 px-6 hover:underline font-semibold md:inline" href="#product">Product</a>
+      <a class="block py-4 px-6 hover:underline font-semibold md:inline" href="#categories">Categories</a>
+      <a class="block py-4 px-6 hover:underline font-semibold md:inline" href="#sale">Sale</a>
+    </nav>
+
+    <!-- Hamburger Button -->
+    <button id="hamburger" class="text-4xl md:hidden focus:outline-none" aria-label="Toggle Menu">≡</button>
+
+    <!-- Logo Image -->
+    <a href="#" class="flex-shrink-0">
+      <img class="w-20 md:w-24" src="images/logo.png" alt="logo-image">
+    </a>
+
+    <!-- Search Box with Icon -->
+    <div class=" flex items-center space-x-4">
+      <!-- Search Icon -->
+      <button id="search-icon" class="text-gray-500 focus:outline-none" aria-label="Open Search">
+        <img class="w-5 h-5" src="images/magnifier-search-icon.png" alt="search-icon">
+      </button>
+
+
+      <!-- Popup Search Box -->
+      <div id="search-popup" class="fixed inset-0 hidden bg-black bg-opacity-50 z-20">
+        <div class="bg-white p-4 rounded-xl shadow-lg w-11/12 max-w-md">
+          <button id="close-search" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700 focus:outline-none"
+            aria-label="Close Search">
+            &times;
+          </button>
+          <input type="text" placeholder="Search..."
+            class="w-full py-2 px-4  border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+      </div>
+
+
+      <!-- Shopping Bag and Profile Icon -->
+
+      <a href="#" class="text-gray-500">
+        <img class="w-5 h-5" src="/images/shopping-bag_icon.png" alt="Shopping-bag-icon">
+      </a>
+      <a href="#" class="text-gray-500">
+        <img class="w-5 h-5" src="/images/profile_icon.png" alt="Profile-icon">
+      </a>
+
+    </div>
+  </header>
+
+  <main class="main-content py-10">
+    <!-- Hero Section (Highlighted promotional area with brand name) -->
+    <section id="home" class="section-hero bg-[#C1CFCD] mx-4 md:mx-6 py-6 md:py-10 h-auto scroll-mt-28 overflow-x-auto">
+      <div class="flex flex-wrap flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-10">
+        <!-- Left Image Column -->
+        <div class="flex gap-6 md:gap-14">
+          <img src="/images/image 1.png" alt="Featured Image" class="w-[70px] xl:w-full h-auto">
+          <img src="/images/image 2.png" alt="Featured Image" class="w-[70px] xl:w-full h-auto">
+        </div>
+
+        <!-- Center Text Section -->
+        <div class="flex flex-col justify-center text-center md:items-center space-y-3">
+          <h1 class="font-bold text-2xl md:text-3xl">MEJIWOO</h1>
+          <h2 class="font-bold text-xl md:text-2xl">미지우</h2>
+          <hr class="h-[2px] border-none bg-black my-1 w-2/3 mx-auto md:w-full">
+          <p class="text-sm md:text-base">make your everyday look prettier <br>
+            with MEJIWOO Korean Made</p>
+        </div>
+        <!-- Right Image Column -->
+        <div class="flex gap-6 md:gap-14">
+          <img src="/images/image 3.png" alt="Featured Image" class="w-[70px] xl:w-full h-auto">
+          <img src="images/image 4.png" alt="Featured Image" class="w-[70px] xl:w-full h-auto">
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Section for Featured Categories -->
+    <section id="categories" class="section-main scroll-mt-28">
+      <!-- Section Heading -->
+      <h1 class="font-bold text-2xl sm:text-3xl lg:text-4xl text-center py-10">Season Collections</h1>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-center px-4 ">
+        <!-- Spring, Summer, Winter Category Display -->
+        <div class=" text-center ">
+          <img src="images/Frame-2-1.png" alt="Spring Collection" class="w-full h-auto mx-auto max-w-[300px]">
+          <p class=" font-semibold text-2xl my-3">SPRING</p>
+          <button class="rounded-2xl bg-[#C1CFCD] px-4 py-1 font-medium text-center my-3">
+            MORE
+          </button>
+        </div>
+        <div class=" text-center ">
+          <img src="/images/Frame-2-2.png" alt="Summer Collection" class="w-full h-auto mx-auto max-w-[300px]">
+          <p class=" font-semibold text-2xl my-3">SUMMER</p>
+          <button class="rounded-2xl bg-[#C1CFCD] px-4 py-1 font-medium text-center my-3">
+            MORE
+          </button>
+        </div>
+        <div class=" text-center ">
+          <img src="/images/Frame-2-3.png" alt="Winter Collection" class="w-full h-auto mx-auto max-w-[300px]">
+          <p class=" font-semibold text-2xl my-3">WINTER</p>
+          <button class="rounded-2xl bg-[#C1CFCD] px-4 py-1 font-medium text-center my-3">
+            MORE
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Seller Section with Scrollable Products -->
+    <section class="section-best-seller scroll-mt-28">
+      <!-- Section Heading -->
+      <h1 class="font-bold text-2xl sm:text-3xl lg:text-4xl text-center py-10">Our Best Seller</h1>
+      <div class="flex items-center max-w-screen-2xl mx-auto px-5">
+        <!-- Left Arrow Button to Scroll -->
+        <button id="scrollLeft" class="bg-gray-800 text-white p-2 sm:p-3 rounded-full shadow-md hover:bg-gray-600"
+          aria-label="Scroll Left">
+          &#x2B9C;
+        </button>
+
+        <!-- Scrollable Container for Best Seller Products -->
+        <div id="scrollContainer"
+          class="flex overflow-x-auto scroll-smooth whitespace-nowrap mx-3 flex-grow no-scrollbar gap-4">
+          <!-- Product 1 -->
+          <div
+            class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] md:min-w-[33.33%] gap-2 bg-white p-4 rounded-lg shadow-md">
+            <img src="/images/best-seller-1.png" alt="Product Image" class="w-full max-w-[150px] h-auto object-contain">
+            <p class="font-semibold text-sm sm:text-lg my-3">Euphoria Crop Blouse <br> Rp. 125.000</p>
+          </div>
+          <!-- Product 2 -->
+          <div
+            class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] md:min-w-[33.33%] gap-2 bg-white p-4 rounded-lg shadow-md">
+            <img src="/images/best-seller-2.png" alt="Product Image" class="w-full max-w-[150px] h-auto object-contain">
+            <p class="font-semibold text-sm sm:text-lg my-3">Venus Halter Dress <br> Rp. 180.000</p>
+          </div>
+          <!-- Product 3 -->
+          <div
+            class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] md:min-w-[33.33%] gap-2 bg-white p-4 rounded-lg shadow-md">
+            <img src="/images/best-seller-3.png" alt="Product Image" class="w-full max-w-[150px] h-auto object-contain">
+            <p class="font-semibold text-sm sm:text-lg my-3">Snap Pure Blouse <br> Rp. 129.000</p>
+          </div>
+          <!-- Product 4 -->
+          <div
+            class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] md:min-w-[33.33%] gap-2 bg-white p-4 rounded-lg shadow-md">
+            <img src="/images/best-seller-4.png" alt="Product Image" class="w-full max-w-[150px] h-auto object-contain">
+            <p class="font-semibold text-sm sm:text-lg my-3">West Bootscut Denim <br> Rp. 229.000</p>
+          </div>
+          <!-- Product 5 -->
+          <div
+            class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] md:min-w-[33.33%] gap-2 bg-white p-4 rounded-lg shadow-md">
+            <img src="/images/best-seller-5.png" alt="Product Image" class="w-full max-w-[150px] h-auto object-contain">
+            <p class="font-semibold text-sm sm:text-lg my-3">Ribbon Check Long <br> Rp. 175.000</p>
+          </div>
+          <!-- Product 6 -->
+          <div
+            class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] md:min-w-[33.33%] gap-2 bg-white p-4 rounded-lg shadow-md">
+            <img src="/images/best-seller-6.png" alt="Product Image" class="w-full max-w-[150px] h-auto object-contain">
+            <p class="font-semibold text-sm sm:text-lg my-3">Shouldcut Knit <br> Rp. 149.000</p>
+          </div>
+        </div>
+
+        <!-- Right Arrow Button to Scroll -->
+        <button id="scrollRight" class="bg-gray-800 text-white p-2 sm:p-3 rounded-full shadow-md hover:bg-gray-600"
+          aria-label="Scroll Right">
+          &#x2B9E;
+        </button>
+      </div>
+    </section>
+
+    <!-- offer section -->
+    <section id="sale" class="section-offer bg-[#C1CFCD] mx-6 scroll-mt-28 ">
+      <!-- Main container to center content and provide spacing -->
+      <div
+        class="flex flex-col lg:flex-row justify-center items-center space-y-10 lg:space-y-0 lg:space-x-10 mx-6 lg:mx-10 my-10 py-10 px-4 lg:px-10">
+        <div class="flex justify-center lg:justify-start gap-6 lg:gap-14">
+          <img src="/images/offer 1.png" alt="Offer Image 1" class="w-32 md:w-40 lg:w-48">
+          <img src="/images/offer 2.png" alt="Offer Image 2" class="w-32 md:w-40 lg:w-48">
+        </div>
+        <!-- Offer details and CTA button -->
+        <div class="flex flex-col justify-center items-center text-center">
+          <h1 class="font-bold text-2xl md:text-3xl">Get 50% Off</h1>
+          <p class="my-3 md:my-5 text-sm md:text-base">for all new product purchases <br>
+            min. purchase Rp. 350.000</p>
+          <button class="bg-white text-black rounded-2xl mx-2 py-2 px-4 shadow hover:shadow-lg">
+            <a href="#sale">SHOP NOW</a>
+          </button>
+        </div>
+        <div class="flex justify-center lg:justify-end gap-6 lg:gap-14">
+          <img src="/images/offer 3.png" alt="Offer Image 3">
+        </div>
+      </div>
+    </section>
+
+    <!-- product section -->
+    <section id="product" class="section-product mx-4 lg:mx-12 xl:mx-24 scroll-mt-28">
+      <!-- Section Heading -->
+      <h1 class="font-bold text-2xl sm:text-3xl lg:text-4xl text-center py-10">Our Products</h1>
+      <div>
+        <!-- Product Tabs for filtering -->
+        <div class="flex flex-wrap justify-center gap-4 text-lg lg:text-2xl py-3">
+          <button class="product-tab px-4 py-2 bg-[#C1CFCD] rounded hover:bg-blue-600 " data-tab="1">Top</button>
+          <button class="product-tab px-4 py-2 bg-[#C1CFCD]  rounded hover:bg-blue-600" data-tab="2">Bottom</button>
+          <button class="product-tab px-4 py-2 bg-[#C1CFCD] rounded hover:bg-blue-600" data-tab="3">Dress</button>
+          <button class="product-tab px-4 py-2 bg-[#C1CFCD]  rounded hover:bg-blue-600" data-tab="4">Set</button>
+          <button class="product-tab px-4 py-2 bg-[#C1CFCD]  rounded hover:bg-blue-600" data-tab="5">Knit</button>
+          <button class="product-tab px-4 py-2 bg-[#C1CFCD]  rounded hover:bg-blue-600" data-tab="5">Outer</button>
+        </div>
+
+        <!-- Display Products with Image and Price -->
+        <div class="mx-2 sm:mx-6 py-5">
+          <!-- Product 1 Images (Visible by Default) -->
+          <div class="product-content" id="product-1">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 bg-[#C1CFCD] p-4 rounded-lg">
+              <div class="flex flex-col items-center text-center">
+                <img src="/images/product-1.png" alt="product-1" class="rounded shadow w-full max-w-xs">
+                <p class="font-semibold text-base my-3">Eto V Neck Yellow <br> Rp. 129.000</p>
+              </div>
+              <div class="flex flex-col items-center text-center">
+                <img src="/images/product-2.png" alt="product-2" class="rounded shadow w-full max-w-xs">
+                <p class="font-semibold text-base my-3">Macaroon Dry Half <br> Rp. 139.000</p>
+              </div>
+              <div class="flex flex-col items-center text-center">
+                <img src="/images/product-3.png" alt="product-3" class="rounded shadow w-full max-w-xs">
+                <p class="font-semibold text-base my-3">Wave Stripe Hally <br> Rp. 130.000</p>
+              </div>
+              <div class="flex flex-col items-center text-center">
+                <img src="/images/product-4.png" alt="product-4" class="rounded shadow w-full max-w-xs">
+                <p class="font-semibold text-base my-3">Eve Punching Floral <br> Rp. 229.000</p>
+              </div>
+              <div class="flex flex-col items-center text-center">
+                <img src="/images/product-5.png" alt="product-5" class="rounded shadow w-full max-w-xs">
+                <p class="font-semibold text-base my-3">Floral Waffle Tee <br> Rp. 119.000</p>
+              </div>
+              <div class="flex flex-col items-center text-center">
+                <img src="/images/product-6.png" alt="product-6" class="rounded shadow w-full max-w-xs">
+                <p class="font-semibold text-base my-3">Snap Pure Blouse <br> Rp. 225.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button to see more products -->
+        <div class="flex items-center justify-center ">
+          <button class="px-6 py-2 bg-[#C1CFCD] rounded-lg my-3 hover:bg-blue-600">
+            <a href="#product-1" class="font-semibold text-base">SEE MORE &#x27A9;</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Collections Section -->
+    <section class="section-featured-collections mx-6 scroll-mt-28 ">
+      <!-- Section Heading -->
+      <h1 class="font-bold text-2xl sm:text-3xl lg:text-4xl text-center py-10">Our Featured Collections</h1>
+      <div class="flex flex-col md:flex-row justify-evenly items-center">
+        <!-- Featured Collection 1 -->
+        <div class="flex flex-col ">
+          <div class=" relative py-2">
+            <img id="collections-1" src="/images/collections-1.png" alt="Collection 1">
+            <div class="absolute inset-2 flex  flex-row-reverse justify-end items-end">
+              <p class="text-black text-base md:text-lg font-bold bg-white bg-opacity-5 px-4 py-2 rounded-lg">
+                COLORFUL KNITWEAR <br>
+                SERIES</p>
+              <a href="#collections-1"> <img src="/images/right-arrow-icon.png" alt="Arrow"
+                  class="w-4 h-4 md:w-10 md:h-10 "></a>
+            </div>
+          </div>
+          <!-- Featured Collection 2 -->
+          <div class=" relative py-2">
+            <img id="collections-2" src="/images/collections-2.png" alt="Collection 2">
+            <div class="absolute inset-2 flex  flex-row-reverse justify-end items-end">
+              <p class="text-black text-base md:text-lg font-bold bg-white bg-opacity-5 px-4 py-2 rounded-lg">
+                TOP PANTS <br> SERIES</p>
+              <a href="#collections-2"> <img src="/images/right-arrow-icon.png" alt="Arrow"
+                  class="w-4 h-4 md:w-10 md:h-10"></a>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Collection 3 -->
+        <div class="flex">
+          <div class=" relative py-2">
+            <img id="collections-3" src="/images/collections-3.png" alt="Collection 3">
+            <div class="absolute inset-2 flex  flex-row-reverse justify-end items-end">
+              <p class="text-black text-base md:text-lg font-bold bg-white bg-opacity-5 px-4 py-2 rounded-lg">
+                JIWOO MADE SPECIAL <br>
+                SERIES</p>
+              <a href="#collections-3"> <img src="/images/right-arrow-icon.png" alt="Arrow"
+                  class="w-4 h-4 md:w-10 md:h-10"></a>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Collection 4 -->
+        <div class="flex flex-col">
+          <div class=" relative py-2">
+            <img id="collections-4" src="/images/collections-4.png" alt="Collection 4">
+            <div class="absolute inset-2 flex  flex-row-reverse justify-end items-end">
+              <p class="text-black text-base md:text-lg font-bold bg-white bg-opacity-5 px-4 py-2 rounded-lg">
+                FRESHIDER TOP <br> SERIES
+              </p>
+              <a href="#collections-4"> <img src="/images/right-arrow-icon.png" alt="Arrow"
+                  class="w-4 h-4 md:w-10 md:h-10"></a>
+            </div>
+          </div>
+          <!-- Featured Collection 5 -->
+          <div class=" relative py-2">
+            <img id="collections-5" src="/images/collections-5.png" alt="Collection 5">
+            <div class="absolute inset-2 flex  flex-row-reverse justify-end items-end">
+              <p class=" text-black text-base md:text-lg font-bold bg-white bg-opacity-5 px-4 py-2 rounded-lg">
+                SWEET DRESSES <br> SERIES
+              </p>
+              <a href="#collections-5"> <img src="/images/right-arrow-icon.png" alt="Arrow"
+                  class="w-4 h-4 md:w-10 md:h-10"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section -->
+    <section class="section-review mx-6 scroll-mt-28">
+      <!-- Section Heading -->
+      <h1 class="font-bold text-2xl sm:text-3xl lg:text-4xl text-center py-10">What They Said</h1>
+      <div class="flex items-center max-w-screen-1xl mx-auto">
+
+        <!-- Continuous Scrollable Container -->
+        <div class="relative w-full overflow-hidden">
+          <div id="continuousScroll" class="flex animate-marquee whitespace-nowrap">
+            <!-- Review 1 -->
+            <div class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] lg:min-w-[33.33%] px-4">
+              <img src="/images/review-1.png" alt="Review Image 1">
+              <h2 class="font-semibold text-lg sm:text-xl lg:text-2xl my-2">Essence Long Denim</h2>
+              <h3 class="font-semibold text-sm sm:text-base lg:text-lg my-1">&#x2B50; &#x2B50; &#x2B50; &#x2B50;
+                &#x2B50;</h3>
+              <h4 class="font-medium text-sm sm:text-base lg:text-lg my-1">-Lisa-</h4>
+              <p class="text-sm sm:text-base lg:text-lg leading-relaxed my-1">“I like this pants. Its fit and perfect
+                for me. The <br> material
+                is so comfortable that it can be used <br> anywhere. It is also suitable to be combined with <br> all
+                types
+                of my clothes.”</p>
+            </div>
+            <!-- Review 2 -->
+            <div class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] lg:min-w-[33.33%] px-4">
+              <img src="/images/review-2.png" alt="Review Image 2">
+              <h2 class="font-semibold text-lg sm:text-xl lg:text-2xl my-2">Andcable Knit Top</h2>
+              <h3 class="font-semibold text-sm sm:text-base lg:text-lg my-1">&#x2B50; &#x2B50; &#x2B50; &#x2B50;
+                &#x2B50;</h3>
+              <h4 class="font-medium text-sm sm:text-base lg:text-lg my-1">-Celine-</h4>
+              <p class="text-sm sm:text-base lg:text-lg leading-relaxed my-1">“I like knitted materials. I bought this
+                shirt because <br>
+                the design is very pretty and comfortable to wear <br> casually. The material is also neat and good. I
+                love
+                <br> shopping here and I’ll be a frequent customer at <br> this store.”
+              </p>
+            </div>
+            <!-- Review 3 -->
+            <div class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] lg:min-w-[33.33%] px-4">
+              <img src="/images/review-3.png" alt="Review Image 3">
+              <h2 class="font-semibold text-lg sm:text-xl lg:text-2xl my-2">Candy Stripe Boxy</h2>
+              <h3 class="font-semibold text-sm sm:text-base lg:text-lg my-1">&#x2B50; &#x2B50; &#x2B50; &#x2B50;
+                &#x2B50;</h3>
+              <h4 class="font-medium text-sm sm:text-base lg:text-lg my-1">-Tiffany-</h4>
+              <p class="text-sm sm:text-base lg:text-lg leading-relaxed my-1">“This shirt is very pretty and nice. The
+                color is cute <br>
+                too.
+                At
+                first I bought it as a present for my friend <br> but I also wanted it so we ended up going out <br>
+                wearing
+                twin clothes haha.”</p>
+            </div>
+            <!-- Review 4 -->
+            <div class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] lg:min-w-[33.33%] px-4">
+              <img src="/images/review-4.png" alt="Review Image 4">
+              <h2 class="font-semibold text-lg sm:text-xl lg:text-2xl my-2">Summer Cheese Slacks</h2>
+              <h3 class="font-semibold text-sm sm:text-base lg:text-lg my-1">&#x2B50; &#x2B50; &#x2B50; &#x2B50;
+                &#x2B50;</h3>
+              <h4 class="font-medium text-sm sm:text-base lg:text-lg my-1">-Mona-</h4>
+              <p class="text-sm sm:text-base lg:text-lg leading-relaxed my-1">“This pants are very comfortable to wear
+                in the <br> office all
+                day. The material is breathable and <br> stretchy. I also bought this cardigan because I like <br> the
+                beautiful pattern. It goes very well with the <br> pants.”</p>
+            </div>
+            <!-- Review 5 -->
+            <div class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] lg:min-w-[33.33%] px-4">
+              <img src="/images/review-5.png" alt="Review Image 5">
+              <h2 class="font-semibold text-lg sm:text-xl lg:text-2xl my-2">Tinkerbell Chiffon Skirt</h2>
+              <h3 class="font-semibold text-sm sm:text-base lg:text-lg my-1">&#x2B50; &#x2B50; &#x2B50; &#x2B50;
+                &#x2B50;</h3>
+              <h4 class="font-medium text-sm sm:text-base lg:text-lg my-1">-Hana-</h4>
+              <p class="text-sm sm:text-base lg:text-lg leading-relaxed my-1">“I bought this one set of this pretty
+                cardigan and <br> skirt.
+                I
+                really like the Korean style. It's very trendy <br> and comfortable to use when hanging out. I’m <br>
+                happy
+                to be a regular customer at this store.”</p>
+            </div>
+            <!-- Review 6 -->
+            <div class="flex flex-col items-center text-center min-w-[100%] sm:min-w-[50%] lg:min-w-[33.33%] px-4">
+              <img src="/images/review-6.png" alt="Review Image 6">
+              <h2 class="font-semibold text-lg sm:text-xl lg:text-2xl my-2">Sweet Serendipity Cardigan</h2>
+              <h3 class="font-semibold text-sm sm:text-base lg:text-lg my-1">&#x2B50; &#x2B50; &#x2B50; &#x2B50;
+                &#x2B50;</h3>
+              <h4 class="font-medium text-sm sm:text-base lg:text-lg my-1">-Bella-</h4>
+              <p class="text-sm sm:text-base lg:text-lg leading-relaxed my-1">“I really like this cardigan. I like the
+                material <br> because
+                its
+                very soft and comfortable to use. I <br> also bought 2 different colors because they are <br> really
+                good
+                to
+                use and pretty.” </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="section-contact mx-6 py-10 scroll-mt-28">
+      <div class="flex flex-col lg:flex-row justify-evenly bg-[#C1CFCD] py-10 gap-10">
+        <!-- Sign Up Details and other signup benefits -->
+        <div class="flex flex-col text-center lg:text-left">
+          <p class="font-bold text-2xl lg:text-4xl py-10 lg:py-20">Get more benefits <br>
+            by Sign Up & Join <br>
+            Mejiwoo Community!</p>
+          <div class="space-y-2 lg:space-y-4">
+            <p class=" font-bold text-base lg:text-2xl ">&#x2666; FREE Special Gift to a new member</p>
+            <p class=" font-bold text-base lg:text-2xl ">&#x2666; Get 2x JIWOO Points to purchase items</p>
+            <p class=" font-bold text-base lg:text-2xl ">&#x2666; Get special voucher code every month </p>
+            <p class=" font-bold text-base lg:text-2xl ">&#x2666; Claim Voucher Disc. Up To 50%</p>
+          </div>
+        </div>
+
+        <!-- Vertical divider -->
+        <div class="hidden lg:block border-l-2 border-gray-950 h-auto "></div>
+
+        <!-- Contact Form with form fields and Google/Facebook Sign Up -->
+        <div class=" w-full lg:w-1/3 py-10 lg:py-20 px-6 lg:px-0">
+          <form action="" method="" class="space-y-4">
+            <div>
+              <input type="text" name="name" id="name" placeholder="Enter your name" required
+                class="mt-1 block w-full bg-slate-200 border border-gray-300 rounded-md shadow-sm px-4 py-2">
+            </div>
+            <div>
+              <input type="email" name="email" id="email" placeholder="Enter Email Address" required
+                class="mt-1 block w-full bg-slate-200 border border-gray-300 rounded-md shadow-sm px-4 py-2">
+            </div>
+            <div>
+              <input type="password" name="password" id="password" placeholder="Enter your password" required
+                class="mt-1 block w-full bg-slate-200 border border-gray-300 rounded-md shadow-sm px-4 py-2">
+            </div>
+            <div class="flex items-center space-x-2">
+              <input type="checkbox" name="terms" id="terms" required class="accent-gray-700">
+              <label for="terms" class="text-sm">
+                I agree to all the <a href="#terms" class="font-bold hover:underline text-black">Terms</a> and <a
+                  href="#terms" class="font-bold hover:underline text-black">Privacy Policy</a>
+              </label>
+            </div>
+            <button type="submit" class="w-full py-2 px-4 bg-slate-100 rounded-md shadow hover:bg-slate-500">
+              SIGN UP
+            </button>
+
+          </form>
+          <div class="flex items-center my-4">
+            <div class="flex-grow h-px bg-black"></div>
+            <span class="px-3 text-sm font-semibold text-black">Or</span>
+            <div class="flex-grow h-px bg-black"></div>
+          </div>
+          <div class="space-y-3">
+            <button type="button"
+              class="w-full flex items-center justify-center py-2 px-4 rounded-md shadow bg-slate-100 hover:bg-slate-500 focus:outline-none focus:ring-2 focus:ring-red-500">
+              Sign Up with Google
+            </button>
+            <button type="button"
+              class="w-full flex items-center justify-center  py-2 px-4 rounded-md shadow bg-slate-100 hover:bg-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-700">
+              Sign Up with Facebook
+            </button>
+          </div>
+
+          <!-- Already Signed Up -->
+          <p class="text-center mt-4 text-sm text-gray-600">
+            Already have an account? <a href="#contact" class="text-blue-500 hover:underline">Sign In</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer section -->
+  <footer id="footer-info" class="scroll-mt-28  bg-gray-100">
+    <div class="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0 py-10 px-4">
+      <div class="flex flex-col items-center space-y-4">
+        <div class="">
+          <img src="/images/logo.png" alt="logo-image">
+        </div>
+        <!-- Social Media links -->
+        <div class="flex flex-col items-center ">
+          <p class="font-bold text-lg md:text-2xl mb-4">Follow Us</p>
+          <div class="flex space-x-4">
+            <a href="#footer-info"><img class="w-6 h-6 md:w-8 md:h-8" src="/images/facebook-icon.png"
+                alt="Facebook"></a>
+            <a href="#footer-info"><img class="w-6 h-6 md:w-8 md:h-8 " src="/images/instagram-icon.png"
+                alt="Instagram"></a>
+            <a href="#footer-info"><img class="w-6 h-6 md:w-8 md:h-8 " src="/images/twitter-icon.png" alt="Twitter"></a>
+            <a href="#footer-info"><img class="w-6 h-6 md:w-8 md:h-8 " src="/images/youtube-icon.png" alt="Youtube"></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-10 w-full md:w-auto">
+        <!-- Navigation Links -->
+        <div class="flex flex-col items-center md:items-start text-center md:text-left font-medium space-y-2">
+          <a class="hover:underline" href="#footer-info">Guide</a>
+          <a class="hover:underline" href="#footer-info">Terms & Conditions</a>
+          <a class="hover:underline" href="#footer-info">Privacy Policy</a>
+        </div>
+        <!-- About Us Section -->
+        <div class="flex flex-col items-center md:items-start text-center md:text-left font-medium space-y-2">
+          <a class="font-bold hover:underline" href="#footer-info">About Us</a>
+          <ul class="list-none">
+            <li>News</li>
+            <li>Official Store</li>
+            <li>Company</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+        <!-- Get Help Section -->
+        <div class="flex flex-col items-center md:items-start text-center md:text-left font-medium space-y-2">
+          <a class="font-bold hover:underline" href="#footer-info">Get Help</a>
+          <ul class="list-none">
+            <li>FAQ</li>
+            <li>Shipping</li>
+            <li>Payment</li>
+            <li>Returns</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 text-white text-center py-6">
+      <!-- Attribution -->
+      <p class="text-sm mx-2">
+        Design by <a href="https://www.figma.com/@giselasumendap" class="text-cyan-600 hover:underline"
+          target="_blank">[@giselasumendap]</a>.
+        Modified and developed by <a href="https://github.com/CoderKD101"
+          class="font-bold text-cyan-600 hover:underline" target="_blank">[Kshitija Darde]</a>.
+      </p>
+      <!-- Copyright Information -->
+      <p class="text-xs mt-2">
+        © 2025 <a href="https://www.figma.com/@giselasumendap" class="text-cyan-600 hover:underline"
+          target="_blank">[@giselasumendap]</a>. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+
+
+  <!-- Javasrcipt code-->
+  <script>
+    // Add a click event listener to the hamburger menu icon
+    document.getElementById('hamburger').addEventListener('click', function () {
+      // Toggle the 'hidden' class on the navigation menu to show or hide it
+      const navMenu = document.getElementById('nav-menu');
+      navMenu.classList.toggle('hidden');
+    });
+
+
+    // Handle search popup functionality
+    const searchIcon = document.getElementById("search-icon"); // Reference to the search icon element
+    const searchPopup = document.getElementById("search-popup"); // Reference to the search popup container
+    const closeSearch = document.getElementById("close-search"); // Reference to the close button in the search popup
+
+    // Show the search popup when the search icon is clicked
+    searchIcon.addEventListener("click", () => {
+      searchPopup.classList.remove("hidden"); // Remove the 'hidden' class to make the popup visible
+    });
+
+    // Hide the search popup when the close button is clicked
+    closeSearch.addEventListener("click", () => {
+      searchPopup.classList.add("hidden"); // Add the 'hidden' class to make the popup invisible
+    });
+
+    // Close the search popup when the user clicks outside its main content
+    searchPopup.addEventListener("click", (event) => {
+      // Check if the clicked target is the popup itself (and not its children)
+      if (event.target === searchPopup) {
+        searchPopup.classList.add("hidden"); // Add the 'hidden' class to close the popup
+      }
+    });
+
+
+    // JavaScript for Scroll Functionality
+    // Selecting elements: the container to scroll and the buttons for left/right scroll
+    const scrollContainer = document.getElementById('scrollContainer');
+    const scrollLeft = document.getElementById('scrollLeft');
+    const scrollRight = document.getElementById('scrollRight');
+
+    // Calculate the scroll amount based on the width of the image container + gap
+    const scrollAmount = scrollContainer.querySelector('div').clientWidth + 20; // Width of one image container + gap
+
+    // Add event listener for left scroll button click
+    scrollLeft.addEventListener('click', () => {
+      // Scroll the container by the calculated amount towards the left with smooth behavior
+      scrollContainer.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+
+    // Add event listener for right scroll button click
+    scrollRight.addEventListener('click', () => {
+      // Scroll the container by the calculated amount towards the right with smooth behavior
+      scrollContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+
+
+    // JavaScript for Tab Navigation Functionality 
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabs = document.querySelectorAll('.product-tab');// Select all tab buttons
+      const contents = document.querySelectorAll('.product-content');// Select all content divs
+
+      // Add click event listener to each tab
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          // Hide all content sections
+          contents.forEach(content => content.classList.add('hidden'));
+
+          // Show the clicked tab's content
+          const tabContent = document.getElementById(`product-${tab.dataset.tab}`);
+          tabContent.classList.remove('hidden');
+        });
+      });
+    });
+
+
+    //JavaScript for continuous scrolling effect
+    const scrollElement = document.getElementById("continuousScroll");// Select the element to scroll continuously
+    let scrollWidth = scrollElement.scrollWidth;// Get the full width of the scrollable content
+
+    function scrollMarquee() {
+      // Move the reviews in a continuous loop to the left
+      scrollElement.scrollLeft += 1;
+
+      // Reset scroll position when end is reached
+      if (scrollElement.scrollLeft >= scrollWidth / 2) {
+        scrollElement.scrollLeft = 0;
+      }
+    }
+
+    // Set continuous scrolling every 20 milliseconds
+    setInterval(scrollMarquee, 20);
+
+  </script>
+</body>
+
+</html>
