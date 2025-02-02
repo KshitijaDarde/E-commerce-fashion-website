@@ -71,7 +71,7 @@ To set up this project locally:
 
 1. Clone this repository to your local machine:  
    ```bash
-   git clone https://github.com/CoderKD101/MEJIWOO-Fashion.git
+   git clone https://github.com/KshitijaDarde/MEJIWOO-Fashion.git
    
 2. Navigate to the project directory:
    cd MEJIWOO-Fashion
@@ -118,12 +118,12 @@ This project is open-sourced under the MIT License, making it available for use 
 ## 🙏 Acknowledgements
 
 - **Design Credits**: Inspired by [@giselasumendap.](https://www.figma.com/@giselasumendap)
-- **Development and Customization**: [Kshitija Darde.](https://github.com/CoderKD101)
+- **Development and Customization**: [Kshitija Darde.](https://github.com/KshitijaDarde)
 
 ## 📞 Contact
 
 Reach out with feedback or collaboration ideas:
 
-- **Email**: [kshitijawork012@gmail.com]  
-- **GitHub**: [https://github.com/CoderKD101]   
+- **Email**: [kshitijadarde@gmail.com]  
+- **GitHub**: [https://github.com/KshitijaDarde]   
 
